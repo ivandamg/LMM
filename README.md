@@ -1,5 +1,3 @@
-# LMM
-Lab_of_molecular_microbiology
+# Scripts2Share
 
-whole genome sequencing
-RNA-seq
+Set of tools intended to be used even by a grandma  :D
