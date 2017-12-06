@@ -1,0 +1,44 @@
+#######################################################################################################################################
+#######################################################################################################################################
+
+#######################################################################################################################################
+#####################################		PROTOCOL: Find gene and extract from genome 	    #######################################
+###################################################				V1				#######################################################
+#######################################################################################################################################
+#####################################################  IVAN M. 16.11.17			#######################################################
+#######################################################################################################################################
+
+
+#######################################################################################################################################
+######### 
+
+# 0. Prepare a working directory.
+	- Create Working directory. Working folder name and file name should not contain spaces. 
+
+
+# 1. Retrive protein sequence
+
+A. You need to get the protein sequence. 
+			-> Extract protein from your favorite species strain. in your favorite software: NCBI commandline tools, Geneious, SNAPgene, etc.
+		or
+			-> Find protein by name in Uniprot. http://www.uniprot.org/uniprot/
+		or
+			-> from NCBI.  https://www.ncbi.nlm.nih.gov
+B. Download the protein sequence to your Working directory.
+
+# 2. Prepare your target genome. (ex. Genome which you want to extract the gene sequence)
+
+A. Download the fasta sequence of your target Genome. (ex. Vibrio cholerae N16961)
+	1. query the Assembly data base (Vibrio cholerae N16961)
+	2. click on the desired assemlby. 
+	3. On the right panel click on "Download the RefSeq assembly"
+	4. Downlad the file ending by 'XXXX.fna.gz'
+	5. Extract the file to your working folder.
+	
+
+
+
+B. Open Terminal (For Mac OsX or Unix users; for Windows users go buy a unix PC)
+
+	1. Find Path to your working directory.
+		on 
